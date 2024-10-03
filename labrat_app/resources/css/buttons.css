@@ -1,0 +1,669 @@
+a{
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: darkgreen;
+}
+
+
+/*Style for the save button */
+.save{
+    padding: 0;
+    background: green;
+    border: none;
+    outline: none;
+
+    overflow:hidden;
+    cursor:pointer;
+}
+.save:hover
+{
+    background: darkgreen;
+}
+
+.save:active
+{
+    background: seagreen;
+}
+.save__icon
+{
+    display: inline-flex;
+    align-items: center;
+    padding:0px 10px;
+    color: white;
+    height: 100%;
+    font-size: 1.5em;
+    /*background: rgba(0,0,0,0.08);*/
+}
+.save__text
+{
+    display: inline-flex;
+    align-items: center;
+    padding:6px 6px;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+    font-size: 0.85em;
+    /*background: rgba(0,0,0,0.08);*/
+}
+/*Style for the delete button*/
+.delete{
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+
+    overflow:hidden;
+    cursor:pointer;
+}
+.delete:hover
+{
+    background: white;
+    border-radius: 50%;
+}
+
+.delete:active
+{
+    background: none;
+}
+
+.delete__icon
+{
+    display: inline-flex;
+    align-items: center;
+    padding:5px 6px;
+    color: brown;
+    height: 100%;
+    font-size: 1.4em;
+    background: none;
+}
+
+/*Style for the edit button*/
+.edit{
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+    overflow:hidden;
+    cursor:pointer;
+}
+.edit:hover
+{
+    background: white;
+    border-radius: 50%;
+}
+
+.edit:active
+{
+    background: none;
+}
+
+.edit__icon
+{
+    display: inline-flex;
+    align-items: center;
+    padding:5px 5px;
+    color: darkseagreen;
+    height: 100%;
+    font-size: 1.5em;
+    background: none;
+}
+.edit__ic{
+    display: inline-flex;
+    align-items: center;
+    padding: 6px;
+    color: white;
+    height: 100%;
+    font-size: 2em;
+    background: none;
+}
+
+
+/*Style for the edit button*/
+.addteam{
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+    /*overflow:hidden;*/
+    cursor:pointer;
+}
+.addteam:hover
+{
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+
+.addteam:active
+{
+    background: none;
+}
+
+.addteam__icon{
+    display: inline-flex;
+    align-items: center;
+    padding: 6px;
+    color: white;
+    height: 100%;
+    font-size: 1.6em;
+    background: none;
+}
+
+/*Style for the edit button*/
+.removeteam{
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+    /*overflow:hidden;*/
+    cursor:pointer;
+}
+.removeteam:hover
+{
+    background: rgba(255, 99, 71, 0.5);
+    border-radius: 50%;
+}
+
+.removeteam:active
+{
+    background: none;
+}
+
+.removeteam__icon{
+    display: inline-flex;
+    align-items: center;
+    padding: 6px;
+    color: white;
+    height: 100%;
+    font-size: 1.6em;
+    background: none;
+}
+
+
+/*Style for the save button */
+.search,
+.add{
+
+    background: none;
+    border: none;
+    outline: none;
+    overflow:hidden;
+    cursor:pointer;
+    width: 50px;
+    padding-left:0px;
+}
+.search__icon:hover,
+.add__icon:hover
+{
+    background: #cbd5e0;
+    border-radius: 50px;
+}
+
+.search:active,
+.add:active
+{
+    background: white;
+
+}
+.search__icon,
+.add__icon
+{
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    padding:4px 4px ;
+    color: white;
+    font-size: 1.5em;
+    /*background: rgba(0,0,0,0.08);*/
+    background: darkseagreen;
+}
+
+
+
+/*Style for the save button */
+.walk{
+
+    background: none;
+    border: none;
+    outline: none;
+    overflow:hidden;
+    cursor:pointer;
+    width: 30px;
+    padding-left:0px;
+}
+.walk__icon:hover
+{
+    background: #cbd5e0;
+    border-radius: 50px;
+}
+
+.walk:active
+{
+    background: white;
+
+}
+.walk__icon
+{
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    padding:4px 4px ;
+    color: white;
+    font-size: 1.2em;
+    /*background: rgba(0,0,0,0.08);*/
+    background: darkred;
+}
+
+/*Style for the save button */
+.confirm{
+
+    background: none;
+    border: none;
+    outline: none;
+    overflow:hidden;
+    cursor:pointer;
+    width: 25px;
+    border-radius: 50px;
+    padding-left:0px;
+}
+.confirm__icon:hover
+{
+    background: #cbd5e0;
+    border-radius: 50px;
+}
+
+.confirm:active
+{
+
+    background: white;
+
+}
+.confirm__icon
+{
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    padding:4px 4px ;
+    color: white;
+    font-size: 1.2em;
+    /*background: rgba(0,0,0,0.08);*/
+    background: darkseagreen;
+}
+
+
+/*Style for the save button */
+.minus{
+
+    background: none;
+    border: none;
+    outline: none;
+    overflow:hidden;
+    cursor:pointer;
+    width: 50px;
+    padding-left:0px;
+}
+.minus__icon:hover
+{
+    background: #cbd5e0;
+    border-radius: 50px;
+}
+
+.minus:active
+{
+    background: white;
+
+}
+.minus__icon
+{
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    padding:8px 8px ;
+    color: white;
+    font-size: 1.5em;
+    /*background: rgba(0,0,0,0.08);*/
+    background: darkred;
+}
+
+.info-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.info-bubble {
+    position: absolute;
+    z-index: 1;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    max-width: 450px;
+}
+
+
+.arrows {
+   display: block;
+    height: 17px;
+    cursor: pointer;
+    background: white;
+    width: 20px;
+    border: none;
+    outline: none;
+    overflow:hidden;
+    padding-left:0px;
+
+
+}
+.arrow__icon{
+    display: inline-flex;
+    align-items: center;
+    color: darkseagreen;
+    font-size: 1.4em;
+    background: none;
+}
+.arrows:hover{
+
+    background: papayawhip;
+}
+
+
+.t { display: none; }                /* hide radio buttons */
+.t + .l { display: inline-block } /* show labels in line */
+.t ~ .tab { display: none }          /* hide contents */
+/* show contents only for selected tab */
+#tab1:checked ~ .tab.content1,
+#tab2:checked ~ .tab.content1,
+#tab3:checked ~ .tab.content1
+
+{ display: block; }
+.l{font-size: .80rem}
+.t + .l {             /* box with rounded corner */
+    border: 1px solid #999;
+    background: #EEE;
+    padding: 4px 10px;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    top: 1px;
+}
+.t:checked + .l {     /* white background for selected tab */
+    /*background: #FFF;*/
+    background: darkseagreen;
+    border-bottom: 1px solid transparent;
+}
+.t ~ .tab {          /* grey line between tab and contents */
+    border-top: 1px solid #999;
+
+    /*padding: 12px;*/
+}
+
+
+
+.at_t { display: none; }                /* hide radio buttons */
+.at_t + .at_l { display: inline-block } /* show labels in line */
+.at_t ~ .at_tab { display: none }          /* hide contents */
+/* show contents only for selected tab */
+
+#teams:checked ~ .at_tab.content_teams,
+#slots:checked ~ .at_tab.content_slots,
+#choose_theme:checked ~ .at_tab.content_theme
+{ display: block; }
+.at_l{font-size: .80rem}
+.at_t + .at_l {             /* box with rounded corner */
+    border: 1px solid #999;
+    background: #EEE;
+    padding: 4px 10px;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    top: 1px;
+}
+.at_t:checked + .at_l {     /* white background for selected tab */
+    /*background: #FFF;*/
+    background: darkseagreen;
+    border-bottom: 1px solid transparent;
+}
+.at_t ~ .at_tab {          /* grey line between tab and contents */
+    border-top: 1px solid #999;
+
+    /*padding: 12px;*/
+}
+
+
+.link {
+    width: 100%;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+/*Style for the save button */
+.copy{
+
+    background: none;
+    border: none;
+    outline: none;
+    overflow:hidden;
+    cursor:pointer;
+    width: 70px;
+    padding-left:0px;
+}
+.copy__icon:hover
+{
+    background: #cbd5e0;
+    /*border-radius: 50px;*/
+}
+
+.copy:active
+{
+    background: white;
+
+}
+.copy__icon
+{
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    padding:6px 6px ;
+    color: white;
+    font-size: 1.6em;
+    /*background: rgba(0,0,0,0.08);*/
+    background: darkseagreen;
+}
+
+.myfile::file-selector-button {
+    border-radius: 4px;
+    padding: 0 16px;
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 200ms;
+    content: "Επιλέξτε αρχείο";
+}
+
+
+/* file upload button hover state */
+.myfile::file-selector-button:hover {
+    background-color: #f3f4f6;
+}
+
+/* file upload button active state */
+.myfile::file-selector-button:active {
+    background-color: #e5e7eb;
+}
+
+
+.bubble-not{
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20%;
+    border: 1px solid gray;
+    background-color: white;
+    font-size: x-small;
+    padding-bottom: 10px;
+    color: dimgray;
+    font-weight: bolder;
+}
+
+.delete_paper{
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 20px;
+    height: 19px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 3px;
+
+}
+.delete_paper:hover{
+background: rgba(88, 140, 68, 0.1);
+}
+
+
+/*Style for the save button */
+.con{
+
+    position: absolute;
+    top:7px;
+    background: none;
+    border: none;
+    outline: none;
+    overflow:hidden;
+    cursor:pointer;
+    width: 100px;
+    font-size: x-small;
+    border-radius: 50px;
+    padding-left:0px;
+}
+.con__icon:hover::after
+{
+    font-size: x-small;
+    content: "Έγκριση";
+    padding: 2px 2px;
+    border-radius: 50px;
+}
+
+.con:active
+{
+
+    background: white;
+
+}
+
+.con__icon
+{
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    padding:4px 4px ;
+    color: white;
+    font-size: 1.5em;
+    background: darkseagreen;
+}
+
+
+
+/*Style for the save button */
+.rej{
+    position: absolute;
+    bottom:7px;
+    background: none;
+    border: none;
+    outline: none;
+    overflow:hidden;
+    cursor:pointer;
+    width: 100px;
+    font-size: x-small;
+    border-radius: 50px;
+    padding-left:0px;
+}
+.rej__icon:hover::after
+{
+    content: "Απόρριψη";
+    border-radius: 50px;
+    font-size: x-small;
+    padding: 2px 2px;
+}
+
+.rej:active
+{
+
+    background: white;
+
+}
+.rej__icon
+{
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    padding:4px 4px ;
+    color: white;
+    font-size: 1.5em;
+    /*background: rgba(0,0,0,0.08);*/
+    background: darkred;
+}
+
+
+.thebell
+{
+    position: sticky;
+    top:25px;
+    font-size: 18px;
+
+}
+
+
+.thebell::after {
+    content: attr(data-count);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    transition: .3s;
+    opacity: 1;
+    transform: scale(.5);
+    will-change: opacity, transform;
+}
+
+.thebell::before {
+    content: '\1F514';
+    font-family: "FontAwesome";
+    display: block;
+}
+
+.thebell.notify::before {
+    animation: bell 1s ease-out;
+    transform-origin: center top;
+}
+
+@keyframes bell {
+    0% {transform: rotate(35deg);}
+    12.5% {transform: rotate(-30deg);}
+    25% {transform: rotate(25deg);}
+    37.5% {transform: rotate(-20deg);}
+    50% {transform: rotate(15deg);}
+    62.5% {transform: rotate(-10deg)}
+    75% {transform: rotate(5deg)}
+    100% {transform: rotate(0);}
+}
